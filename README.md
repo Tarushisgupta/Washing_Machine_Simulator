@@ -17,7 +17,7 @@ CSS3
 JavaScript 
 
 ## Screenshots 📸
-(Add some screenshots here if you have them!)
+![alt text](image.png)
 
 ## Future Improvements ✨
 1. Add more washing modes and settings.
