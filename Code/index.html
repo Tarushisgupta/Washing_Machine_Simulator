@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Washing Machine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="washing-machine">
+    <h1>Virtual Washing Machine</h1>
+
+    <div class="power-indicator">
+        <div class="led"></div>
+        <button id="powerBtn">Power</button>
+    </div>
+
+    <div class="status" id="status">Ready | Door: Locked</div>
+
+    <div class="controls">
+        <button id="addClothesBtn">Add Clothes</button>
+        <button id="startBtn">Start</button>
+        <button id="pauseBtn">Pause</button>
+        <button id="cancelBtn">Cancel</button>
+    </div>
+
+    <div class="program">
+        <label>Program:</label>
+        <select id="programSelect">
+            <option>Delicates - 30m</option>
+            <option>Cotton - 60m</option>
+            <option>Quick Wash - 15m</option>
+        </select>
+    </div>
+
+    <div class="drum" id="drum">
+        <div id="clothes"></div>
+        <button id="doorBtn" class="door-btn">Open Door</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
